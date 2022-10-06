@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  position: relative;
+}
+
+header{
+  width:100%;
+  margin-bottom:3%;
+  padding-left:5%;
+  padding-right:5%;
+  position:fixed;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background-color: white; 
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:6rem;
+}
+header > form{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+footer{
+  position:fixed;
+  margin-top:3%;
+  bottom:0;
+  width: 100%;
+  padding-left:15%;
+  padding-right:15%;
+  padding-bottom:3%;
+  padding-top:3%;
+  background-color:white;
+  display:flex;
+  justify-content: space-between;
+  box-shadow: 0 -.5rem 1rem rgba(0,0,0,.1);}
+h1{
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-size:250%;
+}
+.logo{
+  text-decoration: none;
+  width:60%;
+  color:black;
+}
+.logo:visited{
+  color:black;
+}
+.ico:visited{
+  color:black;
+}
+
+.content{
+  margin-top:7.5rem;
+}
+
+.sep{
+  margin-top:7.5rem;
+}
+
+.searchico{
+  border:none;
+  background: none;
+}
+
+.searchbar{
+    width:100%;
+    margin-right:3%;
+    height:3rem;
+
+}

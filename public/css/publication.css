@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+*{
+    font-family: 'Public Sans', sans-serif;
+}
+form{
+    display:flex;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction: column;
+}
+.formtxt{
+    width:100%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    padding-left:1rem;
+}
+
+#title{
+    width:100%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+#tags{
+    width:100%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.formtxt::placeholder{
+    padding-left:3rem;
+    font-size:1.4rem;
+    color:black;
+    opacity:0.75;
+}
+
+#enregister{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    width:100%;
+    font-size:1.6rem;
+    opacity:1;
+    background-color:#6495ED;
+    border:none;
+    color:white;
+    margin-top:5%;
+}
+
+.txttop{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:10%;
+    margin-top:3%;
+}
+.inspi{
+    font-size:1.65rem;
+}
+.partagez{
+    font-size:3.5rem;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    text-align: right;
+}
+

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  position: relative;
+}
+
+header{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto; 
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10%;
+  margin-bottom:10%;
+}
+
+h1{
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-size:450%;
+  font-weight: 1200;
+  margin-bottom:2%;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 250;
+  font-size:100%;
+  text-align:right;
+}
+
+
+footer{
+  position:absolute;
+  bottom:0;
+  text-align:center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+footer img{
+  width:15%;
+}
+
+.formulaire{
+  display:flex;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.formtxt{
+  width:100%;
+  height:25%;
+  padding-left:1rem;
+}
+
+.formtxt::placeholder{
+padding-left:3rem;
+font-size:1.3rem;
+color:black;
+opacity:0.75;
+}
+
+#mdp{
+  margin-top:3%;
+  margin-bottom:3%;
+  width:100%;
+}
+#mdp2{
+  width:100%;
+}
+#mail{
+  width:100%;
+  margin-top:3%;
+  margin-bottom:3%;
+}
+#id{
+  width:100%;
+}
+
+#connexion{
+  padding-top:1rem;
+  padding-bottom:1rem;
+  width:100%;
+  font-size:1.6rem;
+  opacity:1;
+  background-color:#6495ED;
+  border:none;
+  color:white;
+  
+}
+
+#remind{
+  margin-bottom:10%;
+  margin-right:3%;
+}
+.formulaire span{
+  font-size:1.25rem;
+}
+
+#enregister{
+  padding-top:1rem;
+  padding-bottom:1rem;
+  width:100%;
+  font-size:1.6rem;
+  opacity:1;
+  background-color:#6495ED;
+  border:none;
+  color:white;
+  margin-top:5%;
+}
+
+.changeP{
+  margin-top:15%;
+  font-size:1.25rem ;
+}
+
+.changeP > a{
+  text-decoration: none;
+  color:#6495ED;
+}
