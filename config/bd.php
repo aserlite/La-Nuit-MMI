@@ -6,17 +6,17 @@ $host = "localhost"; // le chemin vers le serveur (localhost dans 99% des cas)
 
 // A l IUT, prenomnom
 // ordi perso, a vous de le créer.
-$db = "Instagram";
+$db = "nuitmmi";
 
 // A l iut prenom.nom
 // windows : root
 // Mac : root
-$user = "admin";
+$user = "root";
 
 // A l iut, généré automatiquement
 // windows : vide
 // Mac : root
-$passwd = "mysql";
+$passwd = "";
 
 try {
     // On essaie de créer une instance de PDO.
